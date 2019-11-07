@@ -20,7 +20,7 @@
 		  <Private>true</Private>
 	  </Reference>
 	  <Reference Include="MonoMod">
-	    <HintPath>..\..\..\Users\Tristan\Desktop\MM\MonoMod.exe</HintPath>
+	    <HintPath>libs\MonoMod.exe</HintPath>
 	  </Reference>
 	  <Reference Include="MonoMod.RuntimeDetour">
 		  <HintPath>libs\MonoMod.RuntimeDetour.dll</HintPath>
