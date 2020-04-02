@@ -3,10 +3,10 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.1</TargetFramework>
-
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Mono.Options" Version="6.6.0.161" />
     <PackageReference Include="MonoMod" Version="20.3.5.1" />
     <PackageReference Include="MonoMod.RuntimeDetour" Version="20.3.5.1" />
     <PackageReference Include="MonoMod.Utils" Version="20.3.5.1" />
