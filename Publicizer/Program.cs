@@ -47,6 +47,8 @@ namespace Publicizer
 				OutputFileName = targetFile.Replace(".dll", ".Public.dll");
 			VerifyNeededFilePath(targetFile, false, "output file");
 
+			Console.WriteLine($"Flags: All:{AllFlags}, Type:{TypeFlag}, Events:{EventFlag}, Fields:{FieldFlag}, Property:{PropertyFlag}, Method:{MethodFlag}");
+
 			using (MonoModder mm = new MonoModder()
 			{
 				InputPath = targetFile,
@@ -65,7 +67,7 @@ namespace Publicizer
 
 					do {
 						if (AllFlags || TypeFlag)
-							currentType.SetPublic(currentType.IsPublic);
+							currentType.SetPublic(true);
 
 						if (AllFlags || FieldFlag)
 						{
