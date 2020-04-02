@@ -2,12 +2,9 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Reflection;
 using System.Runtime.CompilerServices;
 using Mono.Cecil;
 using MonoMod;
-using MonoMod.Utils;
-
 namespace Publicizer
 {
 	class Program
